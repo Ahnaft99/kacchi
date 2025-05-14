@@ -4,6 +4,8 @@ import{Container, Navbar, Nav } from "react-bootstrap"
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import logo from "../assets/kacchilogo.jpg"
+import { Link } from "react-router-dom";
+
 
 
 const Header = () => {
@@ -14,8 +16,8 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link className='item' href="/">হোম</Nav.Link>
-          <Nav.Link className='item' href="Item">মেনু</Nav.Link>
+        <Nav.Link className='item' as={Link} to="/">হোম</Nav.Link>
+        <Nav.Link className='item' as={Link} to="/item">মেনু</Nav.Link>
           <Nav.Link className='item' href="#অফার">অফার</Nav.Link>
           <Nav.Link className='item' href="#ব্রাঞ্চসমূহ">ব্রাঞ্চসমূহ</Nav.Link>
           <Nav.Link className='item' href="#অর্ডার প্রসেস">অর্ডার প্রসেস</Nav.Link>
