@@ -1,0 +1,31 @@
+#হোম{
+   
+    background: url(../assets/background.jpg);
+    padding: 50px 0;
+}
+h2{
+    font-weight: 900;
+    font-size: 50px !important;
+    color: white !important;
+    text-align: center;
+    padding-top: 150px;
+
+}
+h2 span{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.btn {
+    
+    background-color: red !important;
+    color: white !important;
+    font-size: 20px;
+    font-weight: 900;
+  
+}
+.link{
+    padding-top: 200px;
+    padding-left: 100px;
+}

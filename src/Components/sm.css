@@ -1,0 +1,57 @@
+#মেনু{
+    padding: 20px;
+    background-color: white;
+}
+.main{
+    background-color: lightpink;
+    border: 1px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 30px;
+    padding: 50px;
+    
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+.menu{
+    display: flex ;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.menu a{
+    padding: 10px 15px;
+    border: 1px solid red;
+    border-radius: 12px;
+   
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.menu  a:hover{
+    color: white;
+    background-color: red;
+    opacity: 60%;
+    transition: 0.5s;
+    font-size: 25px ;
+}
+.menu{
+    padding-bottom: 30px;
+}
+.img{
+    width: 20px;
+    height: 150px;
+    
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
